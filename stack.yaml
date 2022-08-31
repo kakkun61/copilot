@@ -1,0 +1,28 @@
+resolver: lts-18.28
+
+packages:
+  - copilot
+  - copilot-c99
+  - copilot-core
+  - copilot-interpreter
+  - copilot-language
+  - copilot-libraries
+  - copilot-theorem
+
+extra-deps:
+  - bimap-0.5.0@sha256:aba506d02a1c93fc2b50dcbe728d2a4d07cca89b7033945418061a0b08576ebd,1889
+  - bitwise-1.0.0.1@sha256:04c0e0c65a9228d9e004b5c4b08633b2f0e915afe8f3affc9bd16f75f92ccf61,3110
+  - bv-sized-1.0.4@sha256:ddb32f807240f79e89bd85d9de16d663cb328d981015523bdf0d88d84e332d4f,2099
+  - config-value-0.8.2.1@sha256:50f357b4183db6ed190a8ee8fd3cc78db287c2f0b681cfd9e632474aad85e8d7,1907
+  - language-c99-0.2.0@sha256:660689db3191edf6164b6e1a00f700bd8d3ebc46dde87c26ad975fd0edbb9953,1587
+  - language-c99-simple-0.2.1@sha256:0313449203ed07cbaefa541447a10d8c013c49b660ae1dd3555d41405b7376fc,1540
+  - language-c99-util-0.2.0@sha256:a46f27692e8d56645a4c9cc6faf530346d35f17002cede64372f025b8d3a57cf,1230
+  - panic-0.4.0.1@sha256:fb46577c9e0ca38c37960572f958a8469f2b577e963ed4f3ea1904d8400d828b,702
+  - parameterized-utils-2.1.5.0@sha256:9afa78ad40442118b11959c9c21f50423dc3be002d58d85a17a8969fbd4f0356,4406
+  - what4-1.3@sha256:cc0b7a8ca310f1bfa41d5a8cee6c53529707955c7a70000f016819e04004f30f,9183
+  - zenc-0.1.2@sha256:2b32c40a3c11f07f466604526aacad2a535309da11b203334dbf586333c13534,1350
+
+nix:
+  enable: true
+  packages:
+    - zlib

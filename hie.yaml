@@ -1,0 +1,70 @@
+cradle:
+  stack:
+    - path: "copilot/src"
+      component: "copilot:lib"
+
+    - path: "copilot/examples/what4/Propositional.hs"
+      component: "copilot:exe:what4-propositional"
+
+    - path: "copilot/examples/what4/Arithmetic.hs"
+      component: "copilot:exe:what4-arithmetic"
+
+    - path: "copilot/examples/what4/Structs.hs"
+      component: "copilot:exe:what4-structs"
+
+    - path: "copilot/examples/WCV.hs"
+      component: "copilot:exe:wcv"
+
+    - path: "copilot/examples/AddMult.hs"
+      component: "copilot:exe:addmult"
+
+    - path: "copilot/examples/Array.hs"
+      component: "copilot:exe:array"
+
+    - path: "copilot/examples/Cast.hs"
+      component: "copilot:exe:cast"
+
+    - path: "copilot/examples/Clock.hs"
+      component: "copilot:exe:clock"
+
+    - path: "copilot/examples/Counter.hs"
+      component: "copilot:exe:counter"
+
+    - path: "copilot/examples/Engine.hs"
+      component: "copilot:exe:engine"
+
+    - path: "copilot/examples/Heater.hs"
+      component: "copilot:exe:heater"
+
+    - path: "copilot/examples/Structs.hs"
+      component: "copilot:exe:structs"
+
+    - path: "copilot/examples/Voting.hs"
+      component: "copilot:exe:voting"
+
+    - path: "copilot-c99/src"
+      component: "copilot-c99:lib"
+
+    - path: "copilot-core/src"
+      component: "copilot-core:lib"
+
+    - path: "copilot-core/tests"
+      component: "copilot-core:test:unit-tests"
+
+    - path: "copilot-interpreter/src"
+      component: "copilot-interpreter:lib"
+
+    - path: "copilot-interpreter/tests"
+      component: "copilot-interpreter:test:unit-tests"
+
+    - path: "copilot-language/src"
+      component: "copilot-language:lib"
+
+    - path: "copilot-language/tests"
+      component: "copilot-language:test:unit-tests"
+
+    - path: "copilot-libraries/src"
+      component: "copilot-libraries:lib"
+
+    - path: "copilot-theorem/src"
+      component: "copilot-theorem:lib"
